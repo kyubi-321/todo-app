@@ -1,1 +1,1 @@
-export const baseURL = `https://todo-app-backend-three.vercel.app//api`;
+export const baseURL = `https://todo-app-backend-three.vercel.app/api`;
