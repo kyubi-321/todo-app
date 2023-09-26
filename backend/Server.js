@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(express.json());
-app.use(cors());
+app.use(cors({ origin: ['https://todo-app-frontend-two.vercel.app', 'https://another-allowed-origin.com'],}));
 
 mongoose
   .connect(process.env.MONGO_URI)
